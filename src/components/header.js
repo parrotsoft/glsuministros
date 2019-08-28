@@ -43,12 +43,12 @@ export default class Header extends Component {
                 </div>
                 <div className="tv-main-nav">
                     <div className="container">
-                        <nav className="navbar navbar-default"> 
+                        <nav className="navbar navbar-default">
                             <div className="navbar-header">
                                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                     <span className="icon-bar"></span>
                                     <span className="icon-bar"></span>
-                                    <span className="icon-bar"></span>                        
+                                    <span className="icon-bar"></span>
                                 </button>
                             </div>
                             <div className="collapse navbar-collapse" id="myNavbar">
