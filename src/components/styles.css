@@ -11,7 +11,6 @@
     background-image: url('/images/banner3.jpg');    
 }
 .thumbnail {
-    min-height: 12em;
     text-align: center;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
