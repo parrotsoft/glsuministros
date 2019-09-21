@@ -19,22 +19,22 @@ export default class Services extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="tv-services">
-                                <div className="col-xs-3">
+                                <div className="col-xs-12 col-md-3">
                                     <div className="thumbnail">
                                         <p>Distribuimos y comercializamos todo lo relacionado con equipos y muebles de oficina, sistemas, computadores e impresoras.</p>
                                     </div>
                                 </div>
-                                <div className="col-xs-3">
+                                <div className="col-xs-12 col-md-3">
                                     <div className="thumbnail">
                                         <p>Fabricamos toda clase de bienes muebles para uso doméstico, industrial y de oficina.</p>
                                     </div>
                                 </div>
-                                <div className="col-xs-3">
+                                <div className="col-xs-12 col-md-3">
                                     <div className="thumbnail">
                                         <p>Ofrecemos servicios de mantenimieno; instalación y reparación de equipos de computo.</p>
                                     </div>
                                 </div>
-                                <div className="col-xs-3">
+                                <div className="col-xs-12 col-md-3">
                                     <div className="thumbnail">
                                         <p>suministramos y comercializamos productos de aseo y cafetería.</p>
                                     </div>
@@ -44,17 +44,17 @@ export default class Services extends Component {
 
                         <div className="row">
                             <div className="tv-services">
-                                <div className="col-xs-3">
+                                <div className="col-xs-12 col-md-3">
                                     <div className="thumbnail">
                                         <p>Distribuimos y comercializamos aires acondicionados; como también lo relacionado con los repuestos y partes de estos, además de mantenimiento, reparación e instalación de los mismos.</p>
                                     </div>
                                 </div>
-                                <div className="col-xs-3">
+                                <div className="col-xs-12 col-md-3">
                                     <div className="thumbnail">
                                         <p>Distribuir y comercializar toda clase de prenda de vestir, así como prendas de uso industrial.</p>
                                     </div>
                                 </div>
-                                <div className="col-xs-3">
+                                <div className="col-xs-12 col-md-3">
                                     <div className="thumbnail">
                                         <p>Podrá importar y exportar artículos y o elementos para su libre desarrollo de su actividad económica.</p>
                                     </div>
