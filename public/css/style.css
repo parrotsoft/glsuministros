@@ -13,6 +13,7 @@ html {
     -webkit-tap-highlight-color: transparent;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 a, button{
     text-decoration: none;
@@ -440,7 +441,7 @@ input.tv-search-field{
 .tv-section-heading h2::before, .tv-innerpage-title::before {
     border: 2px solid #1655a0;
     content: "";
-    display: block;
+    display: none;
     height: 60px;
     position: absolute;
     right: -4px;

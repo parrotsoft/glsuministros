@@ -11,13 +11,9 @@ export default class Slider extends Component {
                             <div className="tv-slider-img slider1" >
                                 <div className="tv-slider-content">
                                     <div className="tv-slider-content-inner">
-                                        <h2 className="tv-highlight-text"><span>Perfection</span> is always under construction</h2>
-                                        <p className="tv-slider-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet nisl nunc, at ultricies urna sollicitudin eu. In eget tortor ac turpis viverra finibus. Etiam eget iaculis leo. Aenean nisi lectus, varius nec convallis malesuada, vestibulum eget metus.</p>
+                                        <h2 className="tv-highlight-text"><span>Distribuidora</span> de equipos del Caribe</h2>
+                                        <p className="tv-slider-para">Somos una compañía dedicada a la producción y comercialización de prendas de dotación empresarial e industrial y elementos de protección individual, buscamos ser un proveedor de alta confiabilidad.</p>
                                     </div>
-                                    <a href="" className="btn">
-                                        <span className="tv-mask"></span>
-                                        <span>View Our Solutions</span>
-                                    </a>
                                 </div>
                             </div>
                         </article>
@@ -25,13 +21,19 @@ export default class Slider extends Component {
                             <div className="tv-slider-img">
                                 <div className="tv-slider-content">
                                     <div className="tv-slider-content-inner">
-                                        <h2 className="tv-highlight-text"><span>Perfection</span> is always under construction</h2>
-                                        <p className="tv-slider-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet nisl nunc, at ultricies urna sollicitudin eu. In eget tortor ac turpis viverra finibus. Etiam eget iaculis leo. Aenean nisi lectus, varius nec convallis malesuada, vestibulum eget metus.</p>
+                                        <h2 className="tv-highlight-text"><span>Suministramos</span> elementos de protección personal</h2>
+                                        <p className="tv-slider-para">Dotar de Protección Personal adecuada a sus trabajadores mantiene su compañía segura y rentable.</p>
                                     </div>
-                                    <a href="" className="btn">
-                                        <span className="tv-mask"></span>
-                                        <span>View Our Solutions</span>
-                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="tv-slider-item slider3">
+                            <div className="tv-slider-img">
+                                <div className="tv-slider-content">
+                                    <div className="tv-slider-content-inner">
+                                        <h2 className="tv-highlight-text"><span>Licitaciones</span> Publicas y Privadas</h2>
+                                        <p className="tv-slider-para">Contamos con la experiencia para proveer de productos y servicios participando en licitaciones publicas y privadas.</p>
+                                    </div>
                                 </div>
                             </div>
                         </article>

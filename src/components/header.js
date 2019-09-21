@@ -54,11 +54,10 @@ export default class Header extends Component {
                             <div className="collapse navbar-collapse" id="myNavbar">
                                 <ul className="nav navbar-nav">
                                     <li className="active"><a href="index.html"><i className="fa fa-home"></i></a></li>
-                                    <li><a href="about.html">Nosotros</a></li>
-                                    <li><a href="service.html">Servicios</a></li>
-                                    <li><a href="project.html">Preoyectos</a></li>
-                                    <li><a href="team.html">Equipo</a></li>
-                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="#nosotros">Nosotros</a></li>
+                                    <li><a href="#servicios">Servicios</a></li>
+                                    <li><a href="#productos">Productos</a></li>
+                                    <li><a href="#contacto">Contacto</a></li>
                                 </ul>
                             </div>
                         </nav>

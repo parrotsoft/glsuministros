@@ -3,167 +3,135 @@ import React, { Component } from 'react';
 export default class Products extends Component {
     render() {
         return (
-            <section className="tv-section">
+            <section id="productos" className="tv-section">
                 <header className="tv-section-heading">
-                    <h2 className="tv-section-title">Latest Projects Completed</h2>
-                    <p className="tv-section-para">Duis vehicula neque velit, nec commodo purus imperdiet ac. Vestibulum a hendrerit neque. Suspendisse feugiat enim ligula, ac suscipit elit condimentum eget.</p>
+                    <h2 className="tv-section-title">Productos</h2>
+                    <p className="tv-section-para">Brindamos productos de alta calidad, teniendo como elemento clave la seguridad de sus trabajadores en los múltiples procesos industriales.</p>
                 </header>
                 <div className="tv-section-content">
                     <div className="container">
                         <div className="row">
                             <div className="tv-filter-wrapper col-xs-12 tv-marginB-50">
                                 <div className="tv-projects-filter tv-filter-options">
-                                    <a className="active" data-group="all">All Projects</a>
-                                    <a data-group="interior">Interior</a>
-                                    <a data-group="renovation">Renovation</a>
-                                    <a data-group="architecture">Architecture</a>
-                                    <a data-group="landscaping">Landscaping</a>
-                                    <a data-group="gardening">Gardening</a>
+                                    <a className="active" data-group="all">Todos los Productos</a>
+                                    <a data-group="oficina">Oficina</a>
+                                    <a data-group="muebles">Muebles</a>
+                                    <a data-group="aseo_cafeteria">Aseo/Cafeteria</a>
+                                    <a data-group="aires">Aires Acondicionados</a>
+                                    <a data-group="seguridad">Seguridad Industrial</a>
                                 </div>
                             </div>
                             <div className="clearfix"></div>
                             <ul id="grid" className="tv-project-grid">
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["architecture"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["aseo_cafeteria"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item1.jpg" alt="project" className="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Architecture</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item1.jpg" class="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/broom-1837434_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["architecture"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["aseo_cafeteria"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item2.jpg" alt="project" className="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Architecture</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item2.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/kitchen-731351_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["interior"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["oficina"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item3.jpg" alt="project" className="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Interior</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item3.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/printer-790396_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["landscaping"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["aires"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item4.jpg" alt="project" className="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Landscaping</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item4.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/air-conditioner-3629396_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["interior"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["aires"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item5.jpg" alt="project" className="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Interior</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item5.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i className="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/air-conditioning-233953_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["renovation"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["oficina"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item6.jpg" alt="project" className="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Renovation</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item6.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/office-1078869_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["renovation"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["muebles"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item7.jpg" alt="project" class="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Renovation</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item7.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/seminar-594118_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["gardening"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["muebles"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item8.jpg" alt="project" className="img-responsive"></img>
-                                        </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Gardening</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item8.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                            <img src="images/wall-416060_640.jpg" alt="project" class="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
-                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["interior"]'>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["seguridad"]'>
                                     <div className="tv-project-content">
                                         <div className="tv-project-image">
-                                            <img src="images/portfolio-item9.jpg" alt="project" className="img-responsive"></img>
+                                            <img src="images/chemist-1636375_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
-                                        <div className="tv-project-overlaytext">
-                                            <div className="tv-project-midvalue">
-                                                <span className="tv-porject-cat">Interior</span>
-                                                <span className="tv-project-name">New Office Room</span>
-                                                <span className="tv-project-plus">
-                                                    <a href="images/portfolio-item9.jpg" className="tv-plus example-image-link img-responsive" data-lightbox="project"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                                                </span>
-                                            </div>
+                                    </div>
+                                </li>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["seguridad"]'>
+                                    <div className="tv-project-content">
+                                        <div className="tv-project-image">
+                                            <img src="images/helmet-1636347_640.jpg" alt="project" className="img-responsive"></img>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["seguridad"]'>
+                                    <div className="tv-project-content">
+                                        <div className="tv-project-image">
+                                            <img src="images/helmet-1636344_640.jpg" alt="project" className="img-responsive"></img>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["seguridad"]'>
+                                    <div className="tv-project-content">
+                                        <div className="tv-project-image">
+                                            <img src="images/industrial-1636403_640.jpg" alt="project" className="img-responsive"></img>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["seguridad"]'>
+                                    <div className="tv-project-content">
+                                        <div className="tv-project-image">
+                                            <img src="images/welding-2178127_640.jpg" alt="project" className="img-responsive"></img>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["seguridad"]'>
+                                    <div className="tv-project-content">
+                                        <div className="tv-project-image">
+                                            <img src="images/tube-bender-2819137_640.jpg" alt="project" className="img-responsive"></img>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["seguridad"]'>
+                                    <div className="tv-project-content">
+                                        <div className="tv-project-image">
+                                            <img src="images/industrial-1636383_640.jpg" alt="project" className="img-responsive"></img>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="item grid-item col-md-4 col-sm-6 col-xs-6 width-100" data-groups='["oficina"]'>
+                                    <div className="tv-project-content">
+                                        <div className="tv-project-image">
+                                            <img src="images/office-2009693_640.jpg" alt="project" className="img-responsive"></img>
                                         </div>
                                     </div>
                                 </li>
