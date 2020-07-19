@@ -11,7 +11,7 @@ export default class Slider extends Component {
                             <div className="tv-slider-img slider1" >
                                 <div className="tv-slider-content">
                                     <div className="tv-slider-content-inner">
-                                        <h2 className="tv-highlight-text"><span>Distribuidora</span> de equipos del Caribe</h2>
+                                        <h2 className="tv-highlight-text"><span>Grupo de Licitaciones Suministros y Servicios del caribe S.A.S</span> </h2>
                                         <p className="tv-slider-para">Somos una compañía dedicada a la producción y comercialización de prendas de dotación empresarial e industrial y elementos de protección individual, buscamos ser un proveedor de alta confiabilidad.</p>
                                     </div>
                                 </div>

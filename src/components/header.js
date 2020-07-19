@@ -10,7 +10,7 @@ export default class Header extends Component {
                             <div className="col-md-3">
                                 <div className="tv-site-logo">
                                     <a href="index.html">
-                                        <img width="300" src="images/logo1.png" alt="logo"></img>
+                                        <img width="400" src="images/logo2.png" alt="logo"></img>
                                     </a>
                                 </div>
                             </div>
